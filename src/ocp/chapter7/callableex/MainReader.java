@@ -11,6 +11,7 @@ import java.util.concurrent.Future;
 
 public class MainReader {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+        System.out.println(Runtime.getRuntime().availableProcessors());
         ExecutorService executor = Executors.newFixedThreadPool(2);
         Future<Integer> value = executor.submit(new MyReader());
         executor.shutdown();
