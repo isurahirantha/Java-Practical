@@ -1,4 +1,4 @@
-package ocp.chapter2.example0.designpatterns.singleton.doublecheck;
+package ocp.chapter2.example0.designpatterns.singleton.part4.doublecheck;
 
 public class SingletonCaller {
     public static void main(String[] args) {
