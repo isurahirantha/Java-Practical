@@ -13,6 +13,7 @@ public class Animal {
         this.weight = builder.weight;
     }
 
+    //Can Create Builder Without Animal Instance
     public static class Builder{
         private String species;
         private String name;
