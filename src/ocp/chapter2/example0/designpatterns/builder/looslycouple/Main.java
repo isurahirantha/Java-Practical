@@ -13,4 +13,10 @@ public class Main {
 
         System.out.println(animal.toString());
     }
+
+    // With STATIC inner class - WORKS
+    // Animal.Builder builder = new Animal.Builder();  // ✅ No Animal needed
+    // If it were NON-STATIC (instance inner class) - WOULDN'T WORK!
+    // Animal.Builder builder = new Animal.Builder(); // ❌ Compilation error
+    // You would need: Animal animal = new Animal();
 }
