@@ -1,4 +1,4 @@
-package ocp.chapter7.synchronizers.semaphore.ratelimiter2;
+package ocp.chapter7.synchronizers.semaphore.fixedwindow.ratelimiter2;
 
 import java.util.concurrent.*;
 

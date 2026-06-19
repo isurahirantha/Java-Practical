@@ -1,4 +1,4 @@
-package ocp.chapter7.synchronizers.semaphore.ratelimiter;
+package ocp.chapter7.synchronizers.semaphore.fixedwindow.ratelimiter;
 
 public class RequestWorker implements Runnable {
 

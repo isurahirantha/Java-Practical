@@ -1,4 +1,4 @@
-package ocp.chapter7.synchronizers.semaphore.ratelimiter3;
+package ocp.chapter7.synchronizers.semaphore.fixedwindow.ratelimiter3;
 
 import java.util.concurrent.*;
 
@@ -50,11 +50,11 @@ public class FixedWindowRateLimiter2 {
             // Simulate business processing time
             Thread.sleep(500);
         } else {
-            // No permit available within timeout
-            System.out.println(
-                    Thread.currentThread().getName()
-                            + " ❌ Rate limit exceeded."
-            );
+                // No permit available within timeout
+                System.out.println(
+                        Thread.currentThread().getName()
+                                + " ❌ Rate limit exceeded."
+                );
         }
     }
 
